@@ -1,5 +1,7 @@
 #include"http.h"
-
+int a = 10;
+int b = 11;
+int c = 12;
 int startup(const char* ip,int port)
 {
 	int sock=socket(AF_INET,SOCK_STREAM,0);
