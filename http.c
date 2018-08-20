@@ -2,6 +2,12 @@
 int a = 10;
 int b = 11;
 int c = 12;
+int d = 10;
+int e = 11;
+int f = 12;
+int g = 10;
+int h = 11;
+int i = 12;
 int startup(const char* ip,int port)
 {
 	int sock=socket(AF_INET,SOCK_STREAM,0);
