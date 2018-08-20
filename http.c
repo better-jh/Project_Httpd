@@ -5,6 +5,7 @@ int c = 12;
 int startup(const char* ip,int port)
 {
 	int sock=socket(AF_INET,SOCK_STREAM,0);
+	int sock=socket(AF_INET,SOCK_STREAM,0);
 	if(sock<0)
 	{
 		perror("socket");
