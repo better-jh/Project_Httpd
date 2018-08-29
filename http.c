@@ -8,8 +8,6 @@ int f = 12;
 int g = 10;
 int h = 11;
 int i = 12;
-bool j = true;
-bool k = false;
 int startup(const char* ip,int port)
 {
 	int sock=socket(AF_INET,SOCK_STREAM,0);
