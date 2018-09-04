@@ -10,6 +10,8 @@ int h = 11;
 int i = 12;
 bool j = true;
 bool k = false;
+float m = 0.1;
+float n = 0.2;
 int startup(const char* ip,int port)
 {
 	int sock=socket(AF_INET,SOCK_STREAM,0);
